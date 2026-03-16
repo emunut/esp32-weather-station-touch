@@ -14,11 +14,11 @@
 //#include "translations/texts_de.h"
 
 // WiFi
-const char *SSID = "yourssid";
-const char *WIFI_PWD = "yourpassw0rd";
+const char *SSID = "SASSYSTACEY";
+const char *WIFI_PWD = "S0uthpaw";
 
 // timezone Europe/Zurich as per https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
-#define TIMEZONE "CET-1CEST,M3.5.0,M10.5.0/3"
+#define TIMEZONE "CST6CDT,M3.2.0,M11.1.0"
 
 #define UPDATE_INTERVAL_MINUTES 10
 
@@ -26,11 +26,11 @@ const char *WIFI_PWD = "yourpassw0rd";
 // #define DATE_TIME_FORMAT_US
 
 // values in metric or imperial system?
-bool IS_METRIC = true;
+bool IS_METRIC = false;
 
 // OpenWeatherMap Settings
 // Sign up here to get an API key: https://docs.thingpulse.com/how-tos/openweathermap-key/
-const String OPEN_WEATHER_MAP_API_KEY = "";
+const String OPEN_WEATHER_MAP_API_KEY = "a981519b613a77dc47044f0841990643";
 
 /*
 Go to https://openweathermap.org/find?q= and search for a location. Go through the
@@ -38,8 +38,8 @@ result set and select the entry closest to the actual location you want to displ
 data for. It'll be a URL like https://openweathermap.org/city/2657896. The number
 at the end is what you assign to the constant below.
  */
-const String OPEN_WEATHER_MAP_LOCATION_ID = "2657896";
-const String DISPLAYED_LOCATION_NAME = "Zurich";
+const String OPEN_WEATHER_MAP_LOCATION_ID = "4695535";
+const String DISPLAYED_LOCATION_NAME = "Gun Barrel City";
 //String OPEN_WEATHER_MAP_LOCATION_ID = "3833367";
 //String DISPLAYED_LOCATION_NAME = "Ushuaia";
 //String OPEN_WEATHER_MAP_LOCATION_ID = "2147714";
